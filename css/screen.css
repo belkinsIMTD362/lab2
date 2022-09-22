@@ -12,11 +12,15 @@ input {
     border: 1px solid;
 }
 
+#submit{
+    margin: 30% 0 0 0;
+}
+
 label {
-    /**padding: 21% 21% 21% 0;**/
+    padding: 30% 0 10% 0;
     display: inline-block;
 }
 
 form {
-    padding: 10%;
+    padding: 20%;
 }
