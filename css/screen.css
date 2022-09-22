@@ -1,11 +1,22 @@
 /* ===== BASE STYLES ===== */
-
-
+* {
+    box-sizing: border-box;
+}
 body {
-    margin: 12%;
+    margin: auto;
 }
 
 input {
     width: 100%;
-    
+    padding: 12px;
+    border: 1px solid;
+}
+
+label {
+    /**padding: 21% 21% 21% 0;**/
+    display: inline-block;
+}
+
+form {
+    padding: 10%;
 }
