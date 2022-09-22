@@ -8,16 +8,20 @@
   <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
 <body>
-  <form action="" method="get" autocomplete="on">
-    <label>
+  <form action="" method="get">
+    <label for="email">
       email
+      <input type="email" id="email" name="email">
     </label>
-    <label>
+    <label for="phone">
       phone number
+      <input type="tel" id="phone" name="phone-number">
     </label>
-    <label>
+    <label for="birth-date">
       birth date
+      <input type="date" id="birth-date" name="birth-date">
     </label>
+    <input type="button" id="submit" name="submit">
   </form>
 </body>
 </html>
