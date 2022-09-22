@@ -9,24 +9,26 @@
   <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
 <body>
-  <form action="" method="get">
-    <ul>
+  <main>
+    <form action="" method="get">
       <ul>
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email">
+        <ul>
+          <label class="u-email" for="email">Email</label>
+          <input type="email" id="email" name="email">
+        </ul>
+        <ul>
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone-number">
+        </ul>
+        <ul>
+          <label for="birth-date">Birth date</label>
+          <input type="date" id="birth-date" name="birth-date">
+        </ul>
+        <ul>
+          <input type="button" id="submit" name="submit" value="Submit">
+        </ul>
       </ul>
-      <ul>
-        <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" name="phone-number">
-      </ul>
-      <ul>
-        <label for="birth-date">Birth date</label>
-        <input type="date" id="birth-date" name="birth-date">
-      </ul>
-      <ul>
-        <input type="button" id="submit" name="submit" value="Submit">
-      </ul>
-    </ul>
-  </form>
+    </form>
+  </main>
 </body>
 </html>
